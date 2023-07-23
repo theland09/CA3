@@ -1,0 +1,35 @@
+a:link {
+color: var(--c-magenta)
+}
+
+a:hover {
+color: var(--c-orange)
+}
+
+a.aside:link {
+color: var(--c-red);
+}
+
+a.aside:hover {
+color: var(--c-blue)
+}
+
+div {
+border-style: solid;
+border-width: 3px;
+border-color: var(--c-cyan);
+}
+
+ul.flex {
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+list-style-type: none;
+}
+
+header {
+background-color: var(--c-background-highlights);
+color: var(--c-yellow);
+font-size: 150%;
+text-align: center;
+}
